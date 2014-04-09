@@ -1,0 +1,16 @@
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.pdb
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Form1.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Properties.Resources.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.pdb

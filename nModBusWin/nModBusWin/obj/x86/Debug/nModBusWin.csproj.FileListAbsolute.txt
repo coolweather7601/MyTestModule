@@ -1,0 +1,34 @@
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Form1.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Properties.Resources.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\bin\Debug\nModBusWin.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\bin\Debug\nModBusWin.pdb
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\bin\Debug\log4net.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\bin\Debug\nmodbuspc.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\Visual Studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\Visual Studio 2010\Projects\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\bin\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\bin\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Form1.resources
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Properties.Resources.resources
+C:\Users\nxp66187\Documents\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\bin\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\bin\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\bin\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\bin\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb

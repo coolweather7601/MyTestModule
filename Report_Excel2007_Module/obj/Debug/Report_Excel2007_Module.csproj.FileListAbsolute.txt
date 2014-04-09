@@ -1,0 +1,19 @@
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\Report_Excel2007_Module.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\Report_Excel2007_Module.pdb
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\ICSharpCode.SharpZipLib.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\Ionic.Zip.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\NPOI.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\NPOI.OOXML.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\NPOI.OpenXml4Net.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\NPOI.OpenXmlFormats.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\bin\NPOI.xml
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\obj\Debug\ResolveAssemblyReference.cache
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\bin\Report_Excel2007_Module.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\bin\Report_Excel2007_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\bin\Ionic.Zip.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\bin\NPOI.xml
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.pdb

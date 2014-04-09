@@ -1,0 +1,24 @@
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\txtToXls.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\txtToXls.pdb
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\txtToXls.Form1.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\txtToXls.Properties.Resources.resources
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\txtToXls.exe
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\obj\x86\Debug\txtToXls.pdb
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\NPOI.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\NPOI.OOXML.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\NPOI.OpenXml4Net.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\NPOI.OpenXmlFormats.dll
+c:\users\nxp66187\documents\visual studio 2010\Projects\txtToXls\bin\Debug\NPOI.xml
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\bin\Debug\txtToXls.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\bin\Debug\txtToXls.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\bin\Debug\NPOI.xml
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.pdb

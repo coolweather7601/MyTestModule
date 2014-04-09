@@ -1,0 +1,6 @@
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\bin\Debug\MyTestModule.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\bin\Debug\MyTestModule.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\obj\x86\Debug\MyTestModule.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\obj\x86\Debug\MyTestModule.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\obj\x86\Debug\MyTestModule.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\MyTestModule\MyTestModule\obj\x86\Debug\MyTestModule.pdb
