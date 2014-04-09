@@ -32,3 +32,11 @@ C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModB
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\bin\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\bin\Debug\nModBusWin.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\nModBusWin\nModBusWin\obj\x86\Debug\nModBusWin.pdb

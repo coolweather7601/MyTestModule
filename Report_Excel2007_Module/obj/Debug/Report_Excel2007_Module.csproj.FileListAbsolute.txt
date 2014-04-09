@@ -17,3 +17,10 @@ C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.csprojResolveAssemblyReference.cache
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.dll
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\bin\Report_Excel2007_Module.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\bin\Report_Excel2007_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\bin\Ionic.Zip.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\bin\NPOI.xml
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\Report_Excel2007_Module\obj\Debug\Report_Excel2007_Module.pdb

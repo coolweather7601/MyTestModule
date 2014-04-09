@@ -22,3 +22,12 @@ C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.csproj.GenerateResource.Cache
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.exe
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\bin\Debug\txtToXls.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\bin\Debug\txtToXls.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\bin\Debug\NPOI.xml
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\txtToXls\obj\x86\Debug\txtToXls.pdb

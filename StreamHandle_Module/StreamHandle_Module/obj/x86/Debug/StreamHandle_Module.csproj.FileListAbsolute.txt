@@ -14,3 +14,10 @@ C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Mod
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.csproj.GenerateResource.Cache
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.exe
 C:\Users\nxp66187\Documents\AlanKuo\program\GitHub\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\bin\Debug\StreamHandle_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Form1.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.Properties.Resources.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.csproj.GenerateResource.Cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.exe
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.pdb
