@@ -58,6 +58,7 @@ namespace nModBusWin
                 btnOpen.Enabled = false;
                 btnClose.Enabled = true;
                 btnRequest.Enabled = true;
+                button1.Enabled = true;
             }
             catch (Exception ex) 
             {
@@ -73,6 +74,7 @@ namespace nModBusWin
             btnOpen.Enabled = true;
             btnClose.Enabled = false;
             btnRequest.Enabled = false;
+            button1.Enabled = false;
         }
 
         private void btnRequest_Click(object sender, EventArgs e)
@@ -272,6 +274,41 @@ namespace nModBusWin
             chk_10.Checked = false;
             cbxTest.Enabled = false;
             if (chk_16.Checked == false && chk_10.Checked == false) { cbxTest.Enabled = true; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //TEST
+            //error code check for machine monitor(Uniga offer)
+            App_Code.ErrorCode ec = new App_Code.ErrorCode();
+            List<ushort[]> lst = new List<ushort[]>
+                {
+                    new ushort[]{ec.error616,616}, new ushort[]{ec.error617,617}, new ushort[]{ec.error618,618}, new ushort[]{ec.error619,619}, new ushort[]{ec.error620,620},
+                    new ushort[]{ec.error621,621}, new ushort[]{ec.error622,622}, new ushort[]{ec.error623,623}, new ushort[]{ec.error624,624}, new ushort[]{ec.error625,625},
+                    new ushort[]{ec.error626,626}, new ushort[]{ec.error627,627}, new ushort[]{ec.error628,628}, new ushort[]{ec.error629,629}, new ushort[]{ec.error630,630},
+                    new ushort[]{ec.error631,631}, new ushort[]{ec.error632,632}, new ushort[]{ec.error633,633}, new ushort[]{ec.error634,634}, new ushort[]{ec.error635,635},
+                    new ushort[]{ec.error636,636}, new ushort[]{ec.error638,638}, new ushort[]{ec.error639,639}, new ushort[]{ec.error640,640}, new ushort[]{ec.error641,641},
+                    new ushort[]{ec.error642,642}, new ushort[]{ec.error643,643}, new ushort[]{ec.error644,644}, new ushort[]{ec.error645,645}, new ushort[]{ec.error646,646},
+                    new ushort[]{ec.error647,647}, new ushort[]{ec.error648,648}, new ushort[]{ec.error649,649}, new ushort[]{ec.error650,650}, new ushort[]{ec.error651,651},
+                    new ushort[]{ec.error652,652}, new ushort[]{ec.error653,653}, new ushort[]{ec.error654,654}, new ushort[]{ec.error655,655}, new ushort[]{ec.error656,656},
+                    new ushort[]{ec.error657,657}, new ushort[]{ec.error658,658}, new ushort[]{ec.error659,659}, new ushort[]{ec.error660,660}
+                };
+
+            byte slaveID = 1;
+            ushort startAddress;
+            ushort numOfPoints = 8;
+
+            Console.WriteLine(string.Format(@"BEGIN: {0}", DateTime.Now.ToString()));
+            foreach (ushort[] item in lst)
+            {
+                startAddress = item[0];
+                bool[] register_ErrorCode = master.ReadCoils(slaveID, startAddress, numOfPoints);
+                if (register_ErrorCode[0] == true)
+                {
+                    Console.WriteLine(string.Format(@"ERROR: {0}", DateTime.Now.ToString()));
+                }
+            }
+            Console.WriteLine(string.Format(@"END: {0}", DateTime.Now.ToString()));
         }
     }
 }

@@ -21,3 +21,4 @@ C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\Str
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.csproj.GenerateResource.Cache
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.exe
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\StreamHandle_Module\StreamHandle_Module\obj\x86\Debug\StreamHandle_Module.csprojResolveAssemblyReference.cache
