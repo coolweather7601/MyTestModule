@@ -18,7 +18,7 @@ namespace nModBusWin
         private ModbusSerialMaster master;
         private ushort param;
         public Form1()
-        {      
+        {
             //
             // Required for Windows Form Designer support
             //
@@ -28,10 +28,9 @@ namespace nModBusWin
             serialPort = new SerialPort();
 
             // set the appropriate properties.
-            serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM10(RS-232)
-            //serialPort.PortName = "COM4";   //for RS232 to USB the COM port connected to WISE COM4(RS-232)
-            
-            
+            //serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM10(RS-232)
+            serialPort.PortName = "COM3";   //for RS232 to USB the COM port connected to WISE COM4(RS-232)
+
             serialPort.BaudRate = 9600;
             serialPort.Parity = Parity.None;
             serialPort.StopBits = StopBits.One;
@@ -132,9 +131,11 @@ namespace nModBusWin
 
                     #region WriteSingleCoil
                     case "WriteSingleCoil":
-                            master.WriteSingleCoil(slaveID, (ushort)startAddress, false);//write
-                            bool[] Coil_status = master.ReadCoils(slaveID, startAddress, numOfPoints);
-                            if (Coil_status[0] == true) { MessageBox.Show("ON"); }
+                        bool inputvalue = false;
+                        if (txtInput.Text.Equals("1")) inputvalue = true;
+                        master.WriteSingleCoil(slaveID, (ushort)startAddress, inputvalue);//write
+                        bool[] Coil_status = master.ReadCoils(slaveID, startAddress, numOfPoints);
+                        if (Coil_status[0] == true) { MessageBox.Show("ON"); }
                             else { MessageBox.Show("OFF"); }
                         break;
                     #endregion
@@ -305,7 +306,7 @@ namespace nModBusWin
                 bool[] register_ErrorCode = master.ReadCoils(slaveID, startAddress, numOfPoints);
                 if (register_ErrorCode[0] == true)
                 {
-                    Console.WriteLine(string.Format(@"ERROR: {0}", DateTime.Now.ToString()));
+                    Console.WriteLine(string.Format(@"ERROR: {0} || Address:{1}", DateTime.Now.ToString(), startAddress));
                 }
             }
             Console.WriteLine(string.Format(@"END: {0}", DateTime.Now.ToString()));
