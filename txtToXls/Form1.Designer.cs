@@ -50,6 +50,7 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.btn_Submit = new System.Windows.Forms.Button();
+            this.btnImport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -58,9 +59,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(251, 30);
+            this.button1.Location = new System.Drawing.Point(251, 33);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 25);
             this.button1.TabIndex = 0;
             this.button1.Text = "Select File";
             this.button1.UseVisualStyleBackColor = true;
@@ -68,23 +69,23 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 30);
+            this.textBox1.Location = new System.Drawing.Point(13, 33);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 22);
+            this.textBox1.Size = new System.Drawing.Size(232, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 59);
+            this.textBox2.Location = new System.Drawing.Point(13, 64);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 22);
+            this.textBox2.Size = new System.Drawing.Size(232, 20);
             this.textBox2.TabIndex = 4;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(251, 59);
+            this.button2.Location = new System.Drawing.Point(251, 64);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 25);
             this.button2.TabIndex = 3;
             this.button2.Text = "Select File";
             this.button2.UseVisualStyleBackColor = true;
@@ -92,16 +93,16 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(13, 88);
+            this.textBox3.Location = new System.Drawing.Point(13, 95);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(232, 22);
+            this.textBox3.Size = new System.Drawing.Size(232, 20);
             this.textBox3.TabIndex = 6;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(251, 88);
+            this.button3.Location = new System.Drawing.Point(251, 95);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 25);
             this.button3.TabIndex = 5;
             this.button3.Text = "Select File";
             this.button3.UseVisualStyleBackColor = true;
@@ -109,16 +110,16 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(13, 175);
+            this.textBox4.Location = new System.Drawing.Point(13, 190);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(232, 22);
+            this.textBox4.Size = new System.Drawing.Size(232, 20);
             this.textBox4.TabIndex = 12;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(251, 175);
+            this.button4.Location = new System.Drawing.Point(251, 190);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 25);
             this.button4.TabIndex = 11;
             this.button4.Text = "Select File";
             this.button4.UseVisualStyleBackColor = true;
@@ -126,16 +127,16 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(13, 146);
+            this.textBox5.Location = new System.Drawing.Point(13, 158);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(232, 22);
+            this.textBox5.Size = new System.Drawing.Size(232, 20);
             this.textBox5.TabIndex = 10;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(251, 146);
+            this.button5.Location = new System.Drawing.Point(251, 158);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(75, 25);
             this.button5.TabIndex = 9;
             this.button5.Text = "Select File";
             this.button5.UseVisualStyleBackColor = true;
@@ -143,16 +144,16 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(13, 117);
+            this.textBox6.Location = new System.Drawing.Point(13, 127);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(232, 22);
+            this.textBox6.Size = new System.Drawing.Size(232, 20);
             this.textBox6.TabIndex = 8;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(251, 117);
+            this.button6.Location = new System.Drawing.Point(251, 127);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(75, 25);
             this.button6.TabIndex = 7;
             this.button6.Text = "Select File";
             this.button6.UseVisualStyleBackColor = true;
@@ -160,16 +161,16 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(13, 262);
+            this.textBox7.Location = new System.Drawing.Point(13, 284);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(232, 22);
+            this.textBox7.Size = new System.Drawing.Size(232, 20);
             this.textBox7.TabIndex = 18;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(251, 262);
+            this.button7.Location = new System.Drawing.Point(251, 284);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(75, 25);
             this.button7.TabIndex = 17;
             this.button7.Text = "Select File";
             this.button7.UseVisualStyleBackColor = true;
@@ -177,16 +178,16 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(13, 233);
+            this.textBox8.Location = new System.Drawing.Point(13, 252);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(232, 22);
+            this.textBox8.Size = new System.Drawing.Size(232, 20);
             this.textBox8.TabIndex = 16;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(251, 233);
+            this.button8.Location = new System.Drawing.Point(251, 252);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(75, 25);
             this.button8.TabIndex = 15;
             this.button8.Text = "Select File";
             this.button8.UseVisualStyleBackColor = true;
@@ -194,16 +195,16 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(13, 204);
+            this.textBox9.Location = new System.Drawing.Point(13, 221);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(232, 22);
+            this.textBox9.Size = new System.Drawing.Size(232, 20);
             this.textBox9.TabIndex = 14;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(251, 204);
+            this.button9.Location = new System.Drawing.Point(251, 221);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.Size = new System.Drawing.Size(75, 25);
             this.button9.TabIndex = 13;
             this.button9.Text = "Select File";
             this.button9.UseVisualStyleBackColor = true;
@@ -211,16 +212,16 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(13, 291);
+            this.textBox10.Location = new System.Drawing.Point(13, 315);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(232, 22);
+            this.textBox10.Size = new System.Drawing.Size(232, 20);
             this.textBox10.TabIndex = 20;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(251, 291);
+            this.button10.Location = new System.Drawing.Point(251, 315);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.Size = new System.Drawing.Size(75, 25);
             this.button10.TabIndex = 19;
             this.button10.Text = "Select File";
             this.button10.UseVisualStyleBackColor = true;
@@ -228,19 +229,31 @@
             // 
             // btn_Submit
             // 
-            this.btn_Submit.Location = new System.Drawing.Point(251, 332);
+            this.btn_Submit.Location = new System.Drawing.Point(251, 360);
             this.btn_Submit.Name = "btn_Submit";
-            this.btn_Submit.Size = new System.Drawing.Size(75, 23);
+            this.btn_Submit.Size = new System.Drawing.Size(75, 25);
             this.btn_Submit.TabIndex = 21;
             this.btn_Submit.Text = "Submit";
             this.btn_Submit.UseVisualStyleBackColor = true;
             this.btn_Submit.Click += new System.EventHandler(this.btn_Submit_Click);
             // 
+            // btnImport
+            // 
+            this.btnImport.Location = new System.Drawing.Point(170, 360);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(75, 23);
+            this.btnImport.TabIndex = 22;
+            this.btnImport.Text = "Import Data";
+            this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Visible = false;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 379);
+            this.ClientSize = new System.Drawing.Size(340, 411);
+            this.Controls.Add(this.btnImport);
             this.Controls.Add(this.btn_Submit);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.button10);
@@ -293,6 +306,7 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button btn_Submit;
+        private System.Windows.Forms.Button btnImport;
 
     }
 }

@@ -28,11 +28,12 @@ namespace nModBusWin
             serialPort = new SerialPort();
 
             // set the appropriate properties.
-            //serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM10(RS-232)
-            serialPort.PortName = "COM3";   //for RS232 to USB the COM port connected to WISE COM4(RS-232)
+            serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM10(RS-232)
+            //serialPort.PortName = "COM3";   //for RS232 to USB the COM port connected to WISE COM4(RS-232)
 
             serialPort.BaudRate = 9600;
-            serialPort.Parity = Parity.None;
+            serialPort.Parity = Parity.Even;//偶數
+            //serialPort.Parity = Parity.None;//無
             serialPort.StopBits = StopBits.One;
             serialPort.DataBits = 8;
             
@@ -128,7 +129,6 @@ namespace nModBusWin
                         }                     
                         break;
                     #endregion
-
                     #region WriteSingleCoil
                     case "WriteSingleCoil":
                         bool inputvalue = false;

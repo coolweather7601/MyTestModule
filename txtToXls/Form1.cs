@@ -95,11 +95,11 @@ namespace txtToXls
                 IRow row; ICell cell;
                 int Row_Count = 0;
                 bool isOnly = false;
-
+                
                 StreamReader sr = new StreamReader(lstFileUrl[i]);
                 while (!sr.EndOfStream)
                 {
-                    string Line = sr.ReadLine().Trim().Replace("Test Name","TestName").Replace(" ohm", "").Replace(" mA", "");                    
+                    string Line = sr.ReadLine().Trim().Replace("Test Name","TestName").Replace(" ohm", "").Replace(" mA", "");
                     string[] Line_Split = Line.Split(" ".ToCharArray());
 
                     int Cell_Count = 0;
@@ -113,7 +113,7 @@ namespace txtToXls
                             Cell_Count++;
                         }
                     }
-                    
+                                        
                     if (Line.Contains("Result") && isOnly==false) 
                     {
                         sheet.SetAutoFilter(CellRangeAddress.ValueOf(string.Format(@"A{0}:K{0}", Row_Count + 1)));//Fliter
@@ -143,6 +143,65 @@ namespace txtToXls
                 MessageBox.Show("請選擇檔案");
             }
         }
+
+        private void btnImport_Click(object sender, EventArgs e)
+        {
+            //<add name="OVEN" connectionString="User Id=oven_sys;Password=oven!!;Data Source=AUTO"/>
+            //<add name="OVEN" connectionString="User Id=spare_part;Password=spare!!part;Data Source=AUTO"/>
+
+            string conn = "User Id=oven_sys;Password=oven!!;Data Source=AUTO";
+            App_Code.AdoDbConn ado = new App_Code.AdoDbConn(App_Code.AdoDbConn.AdoDbType.Oracle,conn);
+            List<string> arrStr = new List<string>();
+            StreamReader sr = new StreamReader(lstFileUrl[0]);
+            while (!sr.EndOfStream)
+            {
+                string Line = sr.ReadLine().Trim();
+                if (!Line.Contains("Date"))
+                {
+                    string[] Line_Split = Line.Split("\t".ToCharArray());
+
+                    #region insert Txn
+                    arrStr.Add(string.Format(@"insert into oven_assy_log (oven_assy_logid,machine_id,oven_assy_logkindid,time,data,batch_NO,target,control_limit,isoverspec)
+                                           values(oven_assy_log_sequence.nextval,'PO-002','1',to_date('{0}','mm/dd/yy hh24:mi:ss'),'{1}','{2}','{3}','{4}','{5}')", Line_Split[0] + " " + Line_Split[1],
+                                                                                                                Line_Split[7],
+                                                                                                                "942640A106",
+                                                                                                                "5",
+                                                                                                                "0.5",
+                                                                                                                "N"));//Pressure
+                    arrStr.Add(string.Format(@"insert into oven_assy_log (oven_assy_logid,machine_id,oven_assy_logkindid,time,data,batch_NO,target,control_limit,isoverspec)
+                                           values(oven_assy_log_sequence.nextval,'PO-002','2',to_date('{0}','mm/dd/yy hh24:mi:ss'),'{1}','{2}','{3}','{4}','{5}')", Line_Split[0] + " " + Line_Split[1],
+                                                                                                                Line_Split[4],
+                                                                                                                "942640A106",
+                                                                                                                "122",
+                                                                                                                "5",
+                                                                                                                "N"));//Temperature(Ch1)
+                    arrStr.Add(string.Format(@"insert into oven_assy_log (oven_assy_logid,machine_id,oven_assy_logkindid,time,data,batch_NO,target,control_limit,isoverspec)
+                                           values(oven_assy_log_sequence.nextval,'PO-002','3',to_date('{0}','mm/dd/yy hh24:mi:ss'),'{1}','{2}','{3}','{4}','{5}')", Line_Split[0] + " " + Line_Split[1],
+                                                                                                                Line_Split[5],
+                                                                                                                "942640A106",
+                                                                                                                "122",
+                                                                                                                "5",
+                                                                                                                "N"));//Temperature(Ch2)
+                    arrStr.Add(string.Format(@"insert into oven_assy_log (oven_assy_logid,machine_id,oven_assy_logkindid,time,data,batch_NO,target,control_limit,isoverspec)
+                                           values(oven_assy_log_sequence.nextval,'PO-002','4',to_date('{0}','mm/dd/yy hh24:mi:ss'),'{1}','{2}','{3}','{4}','{5}')", Line_Split[0] + " " + Line_Split[1],
+                                                                                                                 Line_Split[6],
+                                                                                                                "942640A106",
+                                                                                                                "122",
+                                                                                                                "5",
+                                                                                                                "N"));//Temperature(Ch3)
+                    #endregion
+                }
+            }//end while
+
+            sr.Close();
+
+            //commit
+            string reStr = ado.SQL_transaction(arrStr, conn);
+            if (reStr.Equals("SUCCESS")) { MessageBox.Show("OK"); }
+            else { MessageBox.Show("fail"); }
+        }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -243,7 +302,6 @@ namespace txtToXls
             }
         }
 
-
         private void button10_Click(object sender, EventArgs e)
         {
             OpenFileDialog file = new OpenFileDialog();
@@ -254,6 +312,8 @@ namespace txtToXls
                 lstFileName.Add(file.SafeFileName);
             }
         }
+
+        
 
     }
 }

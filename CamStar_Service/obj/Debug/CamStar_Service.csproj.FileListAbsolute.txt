@@ -1,0 +1,16 @@
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\CamStar_Service.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\CamStar_Service.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\InSiteXMLClient.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Utility.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\InSiteXMLClient.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Utility.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\obj\Debug\CamStar_Service.csprojResolveAssemblyReference.cache
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\obj\Debug\CamStar_Service.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\obj\Debug\CamStar_Service.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Constants.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Exceptions.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Util.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\SharpZipLib.dll
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Constants.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Exceptions.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Util.pdb
