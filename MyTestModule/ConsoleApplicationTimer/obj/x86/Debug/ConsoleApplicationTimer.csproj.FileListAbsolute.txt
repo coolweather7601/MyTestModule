@@ -2,3 +2,4 @@ C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\MyTestModule\ConsoleApp
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\MyTestModule\ConsoleApplicationTimer\bin\Debug\ConsoleApplicationTimer.pdb
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\MyTestModule\ConsoleApplicationTimer\obj\x86\Debug\ConsoleApplicationTimer.exe
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\MyTestModule\ConsoleApplicationTimer\obj\x86\Debug\ConsoleApplicationTimer.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\MyTestModule\ConsoleApplicationTimer\obj\x86\Debug\ConsoleApplicationTimer.csprojResolveAssemblyReference.cache
