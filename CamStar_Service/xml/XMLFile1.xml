@@ -1,0 +1,44 @@
+﻿20140718070727.231	2824	Request Document
+20140718070727.231	2824	<?xml version="1.0" encoding="utf-16"?><__InSite __version="1.1" __encryption="2">
+  <__session>
+    <__useSession>
+      <user>
+        <__name><![CDATA[APKTEST14]]></__name>
+      </user>
+      <sessionId __encrypted="no"><![CDATA[3d7881ff-1f0f-44de-877c-2fe2c319ba73]]></sessionId>
+    </__useSession>
+  </__session>
+  <__service __serviceType="FinalTestWIPMain">
+    <__utcOffset><![CDATA[8:0]]></__utcOffset>
+    <__txnGUID><![CDATA[c72a0856-de65-4394-bcd8-24aac4f15fdf]]></__txnGUID>
+    <__inputData>
+      <ComputerName><![CDATA[TWGKHHPSK1MS049]]></ComputerName>
+      <Equipment>
+        <__name><![CDATA[IC-001]]></__name>
+      </Equipment>
+      <ProcessType>
+        <__name><![CDATA[NORMAL]]></__name>
+      </ProcessType>
+      <Containers>
+        <__listItem>
+          <__name><![CDATA[N25_PK01]]></__name>
+        </__listItem>
+      </Containers>
+      <TrackInQty><![CDATA[1000]]></TrackInQty>
+      <WIPFlag><![CDATA[1]]></WIPFlag>
+    </__inputData>
+    <__execute />
+    <__requestData>
+      <CompletionMsg />
+    </__requestData>
+  </__service>
+</__InSite>
+20140718070728.809	2824	Response Document
+20140718070728.809	2824	<?xml version="1.0" encoding="UTF-16LE"?><__InSite __encryption="2" __version="1.1">
+  <__service __serviceType="FinalTestWIPMain">
+    <__utcOffset>8:0</__utcOffset>
+    <__responseData>
+      <CompletionMsg __genericType="String" __nodeType="DataField" __specificType="String4000"><![CDATA[上機順利完成]]></CompletionMsg>
+    </__responseData>
+  </__service>
+</__InSite>

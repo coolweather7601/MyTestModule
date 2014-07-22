@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTimer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamStar_Service", "..\CamStar_Service\CamStar_Service.csproj", "{AC67B9D0-960C-4FB7-8150-4146B5317E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{C2A0C504-0283-41AD-95DA-411AD60E47D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,16 @@ Global
 		{AC67B9D0-960C-4FB7-8150-4146B5317E7E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AC67B9D0-960C-4FB7-8150-4146B5317E7E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AC67B9D0-960C-4FB7-8150-4146B5317E7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C2A0C504-0283-41AD-95DA-411AD60E47D3}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,7 +28,7 @@ namespace nModBusWin
             serialPort = new SerialPort();
 
             // set the appropriate properties.
-            serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM10(RS-232)
+            serialPort.PortName = "COM11";   //for serial server the COM port connected to WISE COM11(RS-485)
             //serialPort.PortName = "COM3";   //for RS232 to USB the COM port connected to WISE COM4(RS-232)
 
             serialPort.BaudRate = 9600;
@@ -38,7 +38,7 @@ namespace nModBusWin
             serialPort.DataBits = 8;
             
             #region ddl data bind
-            string[] arrFuc = new string[] { "ReadCoilStatus(0x01)", "ReadHoldingRegs(0x03)", "PresetSingleReg(0x06)", "WriteSingleCoil" };
+            string[] arrFuc = new string[] { "ReadCoilStatus(0x01)", "ReadHoldingRegs(0x03)", "WriteSingleCoil(0x05)", "PresetSingleReg(0x06)" };
             foreach (string func in arrFuc)
             {
                 cbxFunc.Items.Add(func);
@@ -117,6 +117,16 @@ namespace nModBusWin
                             Console.WriteLine(string.Format("AO[{0}] = {1}", index, floatData2[index]));
                         break;
                     #endregion
+                    #region WriteSingleCoil(0x05)
+                    case "WriteSingleCoil(0x05)":
+                        bool inputvalue = false;
+                        if (txtInput.Text.Equals("1")) inputvalue = true;
+                        master.WriteSingleCoil(slaveID, (ushort)startAddress, inputvalue);//write
+                        bool[] Coil_status = master.ReadCoils(slaveID, startAddress, numOfPoints);
+                        if (Coil_status[0] == true) { MessageBox.Show("ON"); }
+                        else { MessageBox.Show("OFF"); }
+                        break;
+                    #endregion
                     #region PresetSingleReg(0x06)
                     case "PresetSingleReg(0x06)":
                         if (string.IsNullOrEmpty(txtInput.Text)) { MessageBox.Show("Please text the input value."); }
@@ -128,17 +138,7 @@ namespace nModBusWin
                             //MessageBox.Show(register_read[0].ToString());
                         }                     
                         break;
-                    #endregion
-                    #region WriteSingleCoil
-                    case "WriteSingleCoil":
-                        bool inputvalue = false;
-                        if (txtInput.Text.Equals("1")) inputvalue = true;
-                        master.WriteSingleCoil(slaveID, (ushort)startAddress, inputvalue);//write
-                        bool[] Coil_status = master.ReadCoils(slaveID, startAddress, numOfPoints);
-                        if (Coil_status[0] == true) { MessageBox.Show("ON"); }
-                            else { MessageBox.Show("OFF"); }
-                        break;
-                    #endregion
+                    #endregion                    
                 }
             }
             catch (Exception exception)
@@ -230,10 +230,9 @@ namespace nModBusWin
                 case "2-時": param = fc.secondHour; break;
                 case "2-分": param = fc.secondMin; break;
                 case "2-溫度": param = fc.secondTemperature; break;
-                case "2-壓力": param = fc.secondPressure; break;   
-                case "選用爐訊號": param = fc.Furnace; break;
-                case "啟動按鈕enable並閃爍": param = fc.OnBtnTwinkle; break;
-                case "一般模式紅燈OFF": param = fc.RedLightOff; break;
+                case "2-壓力": param = fc.secondPressure; break;
+                case "啟動按鈕enable並閃爍(系統允許設備可被執行操作)": param = fc.OnBtnTwinkle; break;
+                case "一般模式紅燈OFF(通訊模式切換)": param = fc.RedLightOff; break;
                 case "警報蜂鳴器ON": param = fc.AlarmON; break;
                 case "強制機台停止訊號": param = fc.StopMachine; break;
             }
@@ -247,7 +246,12 @@ namespace nModBusWin
             if(cbxFunc.Text.Equals("PresetSingleReg(0x06)"))
             {
                 txtInput.Enabled=true;
-                arrTest = new string[] { "選用爐訊號", "啟動按鈕enable並閃爍", "一般模式紅燈OFF", "警報蜂鳴器ON", "強制機台停止訊號" };
+                arrTest = new string[] { "啟動按鈕enable並閃爍(系統允許設備可被執行操作)", "一般模式紅燈OFF(通訊模式切換)", "警報蜂鳴器ON", "強制機台停止訊號" };
+            }
+            else if (cbxFunc.Text.Equals("WriteSingleCoil(0x05)"))
+            {
+                txtInput.Enabled = true;
+                arrTest = new string[] { "啟動按鈕enable並閃爍(系統允許設備可被執行操作)", "一般模式紅燈OFF(通訊模式切換)", "警報蜂鳴器ON", "強制機台停止訊號" };
             }
             else if (cbxFunc.Text.Equals("ReadCoilStatus(0x01)"))
             {

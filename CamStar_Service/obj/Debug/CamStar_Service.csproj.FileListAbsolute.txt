@@ -14,3 +14,5 @@ C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Sha
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Constants.pdb
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Exceptions.pdb
 C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\bin\Camstar.Util.pdb
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\obj\Debug\CamStar_Service.Ad_HocTxn.resources
+C:\Users\nxp66187\Documents\AlanKuo\program\MyTestModule\CamStar_Service\obj\Debug\CamStar_Service.csproj.GenerateResource.Cache
